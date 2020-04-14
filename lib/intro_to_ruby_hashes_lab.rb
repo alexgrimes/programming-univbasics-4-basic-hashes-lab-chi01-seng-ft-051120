@@ -6,8 +6,12 @@ def my_hash
   { :favorite_color => "blue"}
 end
 
+def my_hash
+  { favorite_color: "blue"}
+end
+
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  {# return a hash with a key of :name and a corresponding value of 'Grace Hopper'}
 end
 
 
